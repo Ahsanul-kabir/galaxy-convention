@@ -47,3 +47,67 @@ a {
 }
 
 /* header */
+
+.custom-card {
+    width: 232px;
+    height: 387px;
+}
+
+.fa-check-circle {
+    color: #5243C2;
+}
+
+.custom-card h1,
+.package-heading {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    color: #231D4F;
+}
+
+.custom-card h3 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #231D4F;
+}
+
+.custom-card p {
+    font-family: Poppins;
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+}
+
+.card-btn {
+    display: block;
+    background: #f3eaf0;
+    height: 45px;
+    width: 207px;
+    border-radius: 24px;
+
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #3F87F5;
+}
+
+.custom-card-focus {
+    background: #3F87F5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+    position: relative;
+    bottom: 20px;
+}
+
+.custom-card-focus p,
+.custom-card-focus h1,
+.custom-card-focus h3 {
+    color: #FFFFFF;
+}
+
+/* card-package */
